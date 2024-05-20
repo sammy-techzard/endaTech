@@ -6,6 +6,7 @@ At first it was challenging to use tailwind classes. Beside knowing less class, 
 Overtime I got used to it. Through out the journey, I messed a lot but I also learnt a lot of new things.
 
 - With tailwind, I was able to add custom primary theme color. With this, I can easily change the main color of the website.
+- You can see live demo [Here](https://sammy-techzard.github.io/endaTech/build)
 
 **Technologies used**
 ---
