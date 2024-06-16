@@ -14,6 +14,7 @@ module.exports = {
       },
       colors: {
         primaryColor: colors.violet,
+        secondaryColor: colors.yellow,
       },
       keyframes: {
         MenuSlideIn: {

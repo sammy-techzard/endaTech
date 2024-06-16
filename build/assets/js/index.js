@@ -25,14 +25,18 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
     document.getElementById("closeMenuBut").addEventListener('click', function () {
-        openAndCloseMenu("insideMenu", "closeMenuBut")
+        openAndCloseMenu("insideMenu", this);
+    });
+    window.addEventListener("popstate", function () {
+        var closebt = document.getElementById("closeMenuBut");
+        openAndCloseMenu("insideMenu", closebt);
     });
 
 });
 
-const openAndCloseMenu = (menuId, openBut) => {
+const openAndCloseMenu = (menuId, element) => {
     const menuSelfElement = document.getElementById(menuId);
-    const closeButElem = document.getElementById(openBut);
+    const closeButElem = element;
     const menuNow = closeButElem.getAttribute('data-menu-now');
     if (menuNow && menuNow === "opened") {
         // closing now

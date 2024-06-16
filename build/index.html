@@ -5,24 +5,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EndaTech || Welcome</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="EndaTech || Welcome">
+    <meta name="description"
+        content="Your One-Stop Solution for All Things Tech! EndaTech provides web hosting, web development, and cybersecurity services.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.endatech.com/">
+    <meta property="og:title" content="EndaTech || Welcome">
+    <meta property="og:description"
+        content="Your One-Stop Solution for All Things Tech! EndaTech provides web hosting, web development, and cybersecurity services.">
+    <meta property="og:image" content="https://www.endatech.com/assets/img/social-preview.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.endatech.com/">
+    <meta property="twitter:title" content="EndaTech || Welcome">
+    <meta property="twitter:description"
+        content="Your One-Stop Solution for All Things Tech! EndaTech provides web hosting, web development, and cybersecurity services.">
+    <meta property="twitter:image" content="https://www.endatech.com/assets/img/social-preview.jpg">
+
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://www.endatech.com/">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/square-logo.png">
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/svg.css">
     <link rel="stylesheet" href="assets/fontawesome/css/fontawesome.css">
     <link rel="stylesheet" href="assets/fontawesome/css/brands.css">
     <link rel="stylesheet" href="assets/fontawesome/css/solid.css">
     <link rel="stylesheet" href="assets/fontawesome/css/regular.css">
-    <link rel="icon" href="assets/img/square-logo.png">
+
+    <!-- Scripts -->
     <script src="assets/js/index.js" defer></script>
+
+    <!-- Additional SEO Tags -->
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="EndaTech">
+    <meta name="keywords" content="EndaTech, web hosting, web development, cybersecurity, technology solutions, Rwanda">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "EndaTech",
+      "url": "https://www.endatech.com",
+      "logo": "https://www.endatech.com/assets/img/logo.png",
+      "description": "Your One-Stop Solution for All Things Tech! EndaTech provides web hosting, web development, and cybersecurity services.",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+250790144775",
+        "contactType": "Customer Service"
+      },
+      "sameAs": [
+        "https://www.facebook.com/endatech",
+        "https://www.linkedin.com/company/endatech",
+        "https://www.instagram.com/endatech"
+      ]
+    }
+    </script>
     <style>
-        .custom-shape-divider-bottom-1716035228 {
+        /* .custom-shape-divider-bottom-1716035228 {
             position: absolute;
             bottom: 0;
             left: 0;
             width: 100%;
             overflow: hidden;
             line-height: 0;
-            transform: rotate(180deg);
-            z-index: -1;
         }
 
         .custom-shape-divider-bottom-1716035228 svg {
@@ -36,11 +91,43 @@
             fill: #9013FE;
         }
 
-        /** For mobile devices **/
+        /** For mobile devices 
         @media (max-width: 767px) {
             .custom-shape-divider-bottom-1716035228 svg {
                 width: calc(195% + 1.3px);
                 height: 341px;
+            }
+        } */
+
+        /* Second */
+        .custom-shape-divider-bottom-1716035228 {
+            position: absolute;
+            top: calc(-100% + 1px);
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: rotate(180deg);
+            z-index: 1;
+            height: 100%;
+        }
+
+        .custom-shape-divider-bottom-1716035228 svg {
+            position: relative;
+            display: block;
+            width: calc(129% + 1.3px);
+            height: 186px;
+        }
+
+        .custom-shape-divider-bottom-1716035228 .shape-fill {
+            fill: #FFFFFF;
+        }
+
+        /** For mobile devices **/
+        @media (max-width: 767px) {
+            .custom-shape-divider-bottom-1716035228 svg {
+                width: calc(150% + 1.4px);
+                height: 58px;
             }
         }
     </style>
@@ -69,7 +156,7 @@
                             Services</span>
                         <div class=" sm:group-hover/men:block sm:hidden sm:absolute min-w-[250px] w-max top-0">
                             <div class=" sm:bg-white left-0 sm:text-black sm:my-10 my-4 w-full min-h-10 rounded-lg">
-                                <a href="webhosting.html" aria-label="Item of min menu"
+                                <a href="#web-hosting" aria-label="Item of min menu"
                                     class="flex group sm:min-h-[50px] justify-stretch sm:hover:bg-primaryColor-100  rounded-md overflow-hidden">
                                     <div class="flex w-1/4 text-primaryColor-700 justify-center items-center text-2xl">
                                         <i class="fas fa-server"></i>
@@ -82,7 +169,7 @@
                                             secure</span>
                                     </div>
                                 </a>
-                                <a href="webdevelopment.html" aria-label="Item of min menu"
+                                <a href="#web-development" aria-label="Item of min menu"
                                     class="flex group sm:min-h-[50px] justify-stretch sm:hover:bg-primaryColor-100  rounded-md overflow-hidden">
                                     <div class="flex w-1/4 text-primaryColor-700 justify-center items-center text-2xl">
                                         <i class="fas fa-globe"></i>
@@ -96,7 +183,7 @@
                                             life</span>
                                     </div>
                                 </a>
-                                <a href="cybersecurity.html" aria-label="Item of min menu"
+                                <a href="#cybersecurity" aria-label="Item of min menu"
                                     class="flex group sm:min-h-[50px] justify-stretch sm:hover:bg-primaryColor-100  rounded-md overflow-hidden">
                                     <div class="flex w-1/4 text-primaryColor-700 justify-center items-center text-2xl">
                                         <i class="fas fa-shield-alt"></i>
@@ -112,11 +199,13 @@
                         </div>
 
                     </div>
-                    <a href="about.html"
-                        class="self-center my-2 font-semibold text-primaryColor-100 text-lg hover:text-primaryColor-500 ease-linear duration-75 delay-75 mx-2">About</a>
-                    <a href="contact.html"
+                    <a href="#contactUs"
+                        class="self-center w-max my-2 flex font-semibold text-primaryColor-100 text-lg hover:text-primaryColor-500 ease-linear duration-75 delay-75 mx-2">
+                        Contact Us
+                    </a>
+                    <a href="https://maps.app.goo.gl/HmMr9V4B8pDPRZbH9"
                         class="self-center my-2 font-semibold text-primaryColor-100 text-lg hover:text-primaryColor-500 ease-linear duration-75 delay-75 mx-2">
-                        Contact
+                        Location
                     </a>
 
                 </div>
@@ -127,10 +216,10 @@
                         class="self-center my-2 font-semibold text-primaryColor-100 text-lg hover:text-primaryColor-500 ease-linear duration-75 delay-75 mx-5">
                         <i class="fas fa-phone"></i>
                     </a>
-                    <a href="https://maps.app.goo.gl/HmMr9V4B8pDPRZbH9"
+                    <!-- <a href="https://maps.app.goo.gl/HmMr9V4B8pDPRZbH9"
                         class="self-center my-2 font-semibold text-primaryColor-100 text-lg hover:text-primaryColor-500 ease-linear duration-75 delay-75 mx-5">
                         <i class="fas fa-location-pin"></i>
-                    </a>
+                    </a> -->
 
                 </div>
             </div>
@@ -142,7 +231,7 @@
             </a>
         </nav>
     </header>
-    <main>
+    <main class="flex flex-col">
         <section
             class="flex flex-col sm:flex-row min-h-[max-content] bg-[url('../img/web-hosting.jpeg')] bg-blend-multiply bg-cover bg-no-repeat bg-center pt-20  relative sm:min-h-screen sm:pb-0 pb-[40px]">
             <div class=" w-full h-full inset-0 bg-black opacity-70 absolute top-0">
@@ -165,14 +254,14 @@
                     <div aria-label="InnerServiceContainer" class="m-auto z-10 pb-5 w-full">
                         <h2 class="text-2xl sm:text-3xl text-white w-full text-center font-bold m-4">Start Now!</h2>
 
-                        <a href="#homeWebDevSEC" aria-label="one service item"
-                            class="bg-white flex my-2 hover:bg-primaryColor-900 transition duration-500 group   flex-row shadow-2xl rounded-md mx-5">
-                            <div class="flex mx-2 content-center">
+                        <a href="#web-development" aria-label="one service item"
+                            class="bg-white flex my-2 w-[calc(100%-40px)] hover:bg-primaryColor-900 transition duration-500 group   flex-row shadow-2xl rounded-md mx-[20px]">
+                            <div class="flex w-[calc(100%-10px)] mx-[5px] content-center">
                                 <div
-                                    class="m-auto h-10 w-10 rounded-full bg-primaryColor-600 group-hover:bg-primaryColor-100 group-hover:text-primaryColor-600 transition duration-500 grid justify-center content-center text-white">
+                                    class="m-auto h-10 w-[40px] rounded-full bg-primaryColor-600 group-hover:bg-primaryColor-100 group-hover:text-primaryColor-600 transition duration-500 grid justify-center content-center text-white">
                                     <i class="fas fa-globe"></i>
                                 </div>
-                                <div class=" w-[80%] grid mx-2 my-3">
+                                <div class=" w-[calc(100%-40px)] grid px-2 py-3">
                                     <span
                                         class="text-lg font-semibold group-hover:text-white text-primaryColor-950  ">Need
                                         a Website?</span>
@@ -182,15 +271,16 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="#homeWebHostSEC" aria-label="one service item"
-                            class="bg-white flex my-2 hover:bg-primaryColor-900 transition duration-500 group   flex-row shadow-2xl rounded-md mx-5">
-                            <div class="flex mx-2 content-center">
+                        <a href="#web-hosting" aria-label="one service item"
+                            class="bg-white flex my-2 w-[calc(100%-40px)] hover:bg-primaryColor-900 transition duration-500 group   flex-row shadow-2xl rounded-md mx-[20px]">
+                            <div class="flex w-[calc(100%-10px)] mx-[5px] content-center">
                                 <div
-                                    class="m-auto h-10 w-10 rounded-full bg-primaryColor-600 group-hover:bg-primaryColor-100 group-hover:text-primaryColor-600 transition duration-500 grid justify-center content-center text-white">
+                                    class="m-auto h-10 w-[40px] rounded-full bg-primaryColor-600 group-hover:bg-primaryColor-100 group-hover:text-primaryColor-600 transition duration-500 grid justify-center content-center text-white">
                                     <i class="fas fa-server"></i>
                                 </div>
-                                <div class=" w-[80%] grid mx-2 my-3">
-                                    <span class="text-lg font-semibold group-hover:text-white text-primaryColor-950  ">
+                                <div class=" w-[calc(100%-40px)] grid px-2 py-3">
+                                    <span
+                                        class="text-lg font-semibold group-hover:text-white text-primaryColor-950  ">Need
                                         Affordable Host?
                                     </span>
                                     <span class="text-xs text-gray-500 font-light  group-hover:text-white">
@@ -201,15 +291,16 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="#homeCyberSECSEC" aria-label="one service item"
-                            class="bg-white flex my-2 hover:bg-primaryColor-900 transition duration-500 group   flex-row shadow-2xl rounded-md mx-5">
-                            <div class="flex mx-2 content-center">
+                        <a href="#cybersecurity" aria-label="one service item"
+                            class="bg-white flex my-2 w-[calc(100%-40px)] hover:bg-primaryColor-900 transition duration-500 group   flex-row shadow-2xl rounded-md mx-[20px]">
+                            <div class="flex w-[calc(100%-10px)] mx-[5px] content-center">
                                 <div
-                                    class="m-auto h-10 w-10 rounded-full bg-primaryColor-600 group-hover:bg-primaryColor-100 group-hover:text-primaryColor-600 transition duration-500 grid justify-center content-center text-white">
+                                    class="m-auto h-10 w-[40px] rounded-full bg-primaryColor-600 group-hover:bg-primaryColor-100 group-hover:text-primaryColor-600 transition duration-500 grid justify-center content-center text-white">
                                     <i class="fas fa-shield-alt"></i>
                                 </div>
-                                <div class=" w-[80%] grid mx-2 my-3">
-                                    <span class="text-lg font-semibold group-hover:text-white text-primaryColor-950  ">
+                                <div class=" w-[calc(100%-40px)] grid px-2 py-3">
+                                    <span
+                                        class="text-lg font-semibold group-hover:text-white text-primaryColor-950  ">Need
                                         Security?
                                     </span>
                                     <span class="text-xs text-gray-500 font-light  group-hover:text-white">
@@ -224,20 +315,23 @@
             </div>
 
         </section>
-        <section id="homeWebHostSEC"
+        <section id="web-hosting"
             class="w-full sm:min-h-[100vh] min-h-[50vh] sm:py-10  py-0flex flex-col sec-pattern-svg relative items-center">
-            <div class=" w-full h-full inset-0 bg-black opacity-50 absolute top-0">
+            <div class=" w-full h-full inset-0 bg-white opacity-70 absolute top-0">
             </div>
             <div
-                class="sm:w-[90vw] w-[100vw] bg-white p-4 rounded shadow m-auto z-10 sm:min-h-[90vh] min-h-[500px] flex flex-col items-center relative">
-                <div class="flex justify-between">
-                    <div class="w-2/5 sm:w-1/3 md:1/4 flex justify-center items-center">
-                        <img src="assets/img/light-server.gif" alt="Infinite GIF" class="w-5/5 md:w-3/5 ">
+                class="sm:w-[90vw] w-full bg-transparent p-4 rounded  m-auto z-10 sm:min-h-[90vh] min-h-[500px] flex flex-col items-center relative">
+                <div class="flex justify-between sm:flex-row flex-col">
+                    <div class="w-full sm:w-1/3 md:1/4 flex justify-center items-center">
+                        <img src="assets/img/web-hosting-s.svg" alt="Infinite GIF" class="w-3/5 md:w-3/5 ">
                     </div>
-                    <div class="w-3/5 sm:w-2/3 md:3/4 my-10">
-                        <h2 class="text-primaryColor-900 font-extrabold text-2xl sm:text-4xl md:text-5xl  mb-3">Web
-                            Hosting</h2>
-                        <p class="text-xs sm:text-lg ">EndaTech provides secure and reliable web hosting services
+                    <div class="w-full sm:w-2/3 md:3/4 my-10">
+                        <h2
+                            class="text-primaryColor-900 font-extrabold text-3xl sm:text-left text-center sm:text-4xl md:text-5xl  mb-3">
+                            Web Hosting
+                        </h2>
+                        <p class="text-xl text-center sm:text-left sm:text-xl ">EndaTech provides secure and reliable
+                            web hosting services
                             including VPS
                             Servers, Shared
                             Hosting and More. In EndaTech, affordability is not a problem!</p>
@@ -250,7 +344,7 @@
                     </h1>
                     <div class="block w-full">
                         <div aria-label="one item of pricing plans"
-                            class=" overflow-hidden rounded-2xl inline-flex flex-col w-full sm:w-[47.5%] md:w-[31%] mx-[5px] my-4 bg-white shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] border-primaryColor-500 ">
+                            class=" overflow-hidden rounded-2xl inline-flex flex-col w-full sm:w-[47.5%] md:w-[31%] sm:mx-[5px] my-4 bg-white shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] border-primaryColor-500 ">
                             <div class="w-full bg-primaryColor-900 text-white mx-auto">
                                 <h2 class="my-5 w-full text-center font-extrabold text-3xl sm:text-3xl md:text-4xl  ">
                                     Starter
@@ -279,7 +373,7 @@
                                     </ol>
                                 </div>
                                 <div class="flex justify-center items-center my-4">
-                                    <a href="contact.html">
+                                    <a href="#contactUs">
                                         <button
                                             class="rounded-3xl bg-primaryColor-800 hover:bg-primaryColor-600 transition duration-300 ease-in h-10 w-max px-4 text-white  outline-0">
                                             Contact
@@ -290,7 +384,7 @@
                             </div>
                         </div>
                         <div aria-label="one item of pricing plans"
-                            class=" overflow-hidden rounded-2xl inline-flex flex-col w-full sm:w-[47.5%] md:w-[31%] mx-[5px] my-4 bg-white shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] border-primaryColor-500 ">
+                            class=" overflow-hidden rounded-2xl inline-flex flex-col w-full sm:w-[47.5%] md:w-[31%] sm:mx-[5px] my-4 bg-white shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] border-primaryColor-500 ">
                             <div class="w-full bg-primaryColor-900 text-white mx-auto">
                                 <h2 class="my-5 w-full text-center font-extrabold text-3xl sm:text-3xl md:text-4xl  ">
                                     Starter
@@ -319,7 +413,7 @@
                                     </ol>
                                 </div>
                                 <div class="flex justify-center items-center my-4">
-                                    <a href="contact.html">
+                                    <a href="#contactUs">
                                         <button
                                             class="rounded-3xl bg-primaryColor-800 hover:bg-primaryColor-600 transition duration-300 ease-in h-10 w-max px-4 text-white  outline-0">
                                             Contact
@@ -330,7 +424,7 @@
                             </div>
                         </div>
                         <div aria-label="one item of pricing plans"
-                            class=" overflow-hidden rounded-2xl inline-flex flex-col w-full sm:w-[47.5%] md:w-[31%] mx-[5px] my-4 bg-white shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] border-primaryColor-500 ">
+                            class=" overflow-hidden rounded-2xl inline-flex flex-col w-full sm:w-[47.5%] md:w-[31%] sm:mx-[5px] my-4 bg-white shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] border-primaryColor-500 ">
                             <div class="w-full bg-primaryColor-900 text-white mx-auto">
                                 <h2 class="my-5 w-full text-center font-extrabold text-3xl sm:text-3xl md:text-4xl  ">
                                     Starter
@@ -359,7 +453,7 @@
                                     </ol>
                                 </div>
                                 <div class="flex justify-center items-center my-4">
-                                    <a href="contact.html">
+                                    <a href="#contactUs">
                                         <button
                                             class="rounded-3xl bg-primaryColor-800 hover:bg-primaryColor-600 transition duration-300 ease-in h-10 w-max px-4 text-white  outline-0">
                                             Contact
@@ -373,177 +467,482 @@
 
                     </div>
                 </div>
-                <div class="custom-shape-divider-bottom-1716035228 -z-10">
-                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
-                        preserveAspectRatio="none">
-                        <path
-                            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-                            class="shape-fill"></path>
-                    </svg>
-                </div>
             </div>
-
 
         </section>
-        <section id="homeWebDevSEC"
-            class="w-full sm:min-h-[100vh] min-h-[50vh] sm:py-10  py-10 flex flex-col bg-white relative items-center">
-            <div class=" w-full h-full inset-0  absolute top-0">
+        <section id="web-development"
+            class="w-full sm:min-h-[100vh] min-h-[50vh] sm:py-10 bg-white  py-0 flex flex-col  relative items-center">
+            <div class=" w-full h-full inset-0 bg-transparent opacity-100 absolute top-0">
             </div>
-            <div
-                class="w-[90vw] bg-transparent p-4 rounded  m-auto z-10 sm:min-h-[90vh] min-h-[500px] flex flex-col items-center relative">
-                <div class="flex justify-around">
-
-                    <div class="w-1/2  mb-10 mt-[50px] sm:mx-10">
-                        <h2 class="text-primaryColor-900 font-extrabold text-2xl sm:text-4xl md:text-5xl  mb-3">
-                            Web Development
-                        </h2>
-                        <p class="text-sm sm:text-lg ">
-                            We build awesome mobile friendly website and web apps. Anything you can image, we bring it
-                            to live. With our highly skilled and experienced team, our service is always quick and
-                            competent.
-                        </p>
-                    </div>
-                    <div class="w-1/2  flex justify-center items-center">
-                        <img src="assets/img/website-bg.jpg" alt="Infinite GIF" class="w-5/5 md:w-3/5 ">
-                    </div>
-                </div>
-                <!-- Plans and pricing tab -->
-                <div class="flex w-full flex-col justify-stretch">
-                    <h1 class="text-black font-extrabold text-lg sm:text-2xl md:text-3xl  mb-10 text-center ">
-                        We build:
-                    </h1>
-                    <div class="flex w-full">
-
-                        <ol class="w-[90%] m-auto list-outside  text-black">
-                            <div class="w-[49%] inline-flex">
-                                <li class=" list-disc mb-4 font-semibold text-primaryColor-600 text-sm sm:text-lg">
-                                    E-commerce
-                                    Websites
-                                </li>
-                            </div>
-                            <div class="w-[49%] inline-flex">
-                                <li class=" list-disc mb-4 font-semibold text-primaryColor-600 text-sm sm:text-lg">
-                                    Advanced Platforms
-                                </li>
-                            </div>
-                            <div class="w-[49%] inline-flex">
-                                <li class=" list-disc mb-4 font-semibold text-primaryColor-600 text-sm sm:text-lg">
-                                    Business Blogs
-                                </li>
-                            </div>
-                            <div class="w-[49%] inline-flex">
-                                <li class=" list-disc mb-4 font-semibold text-primaryColor-600 text-sm sm:text-lg">
-                                    And more..
-                                </li>
-                            </div>
-                        </ol>
-
-                    </div>
-                    <div class="flex w-full justify-end mt-8">
-                        <a href="webdevelopment.html">
-                            <button
-                                class="bg-primaryColor-800 hover:bg-primaryColor-600 transition duration-300 ease-in h-10 sm:h-14 w-max px-4 sm:px-10 text-white rounded-full font-light text-lg">
-                                Learn
-                                More <span class="my-4">&RightArrow;</span>
-                            </button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="custom-shape-divider-bottom-1716035228 -z-10 inset-0">
+            <div class="custom-shape-divider-bottom-1716035228 ">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
                     preserveAspectRatio="none">
                     <path
                         d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-                        class="shape-fill"></path>
+                        class=" fill-white"></path>
                 </svg>
             </div>
-
-
-        </section>
-        <section id="homeCyberSECSEC"
-            class="w-full sm:min-h-[100vh] min-h-[50vh] sm:py-10  py-10 flex flex-col bg-primaryColor-100 relative items-center">
-            <div class=" w-full h-full inset-0  absolute top-0">
-            </div>
             <div
-                class="w-[90vw] bg-white p-4 shadow m-auto z-10 sm:min-h-[90vh] min-h-[500px] flex flex-col items-center relative">
-                <div class="flex justify-around">
+                class="sm:w-[90vw] w-full bg-transparent p-4  m-auto z-10 sm:min-h-[90vh] min-h-[500px] flex flex-col items-center relative">
 
-
-                    <div class="w-1/2 grid justify-center items-center ">
-                        <div class="grid rounded-lg m-auto overflow-hidden max-w-[300px]">
-                            <img src="assets/img/cyber-security.gif" alt="Cyber Security" class="w-5/5 object-cover ">
-
-                        </div>
+                <div class="flex justify-between sm:flex-row flex-col">
+                    <div class="w-full sm:w-1/3 md:1/4 flex sm:order-1 sm:justify-self-end justify-center items-center">
+                        <img src="assets/img/website-bg.jpg" alt="Infinite GIF" class="w-3/5 md:w-3/5 ">
                     </div>
-                    <div class="w-1/2  mb-10 mt-[50px] sm:mx-10">
-                        <h2 class="text-primaryColor-900 font-extrabold text-2xl sm:text-4xl md:text-5xl  mb-3">
-                            Cyber Security
+                    <div class="w-full sm:w-2/3 md:3/4 my-10 sm:justify-self-start">
+                        <h2
+                            class="text-primaryColor-900  font-extrabold text-3xl sm:text-left text-center sm:text-4xl md:text-5xl  mb-3">
+                            Web Development
                         </h2>
-                        <p class="text-sm sm:text-lg ">
-                            Protect your digital assets with our expert cyber security services. We offer proactive
-                            measures, advanced technology, and swift incident response to safeguard your organization
-                            from evolving threats.
+                        <p class="text-xl text-center sm:text-left sm:text-xl ">EndaTech provides secure and reliable
+                            Elevate your online presence with our expert web development services. From design to
+                            deployment, we bring your vision to life with precision and creativity.
                         </p>
                     </div>
                 </div>
                 <!-- Plans and pricing tab -->
                 <div class="flex w-full flex-col justify-stretch">
                     <h1 class="text-black font-extrabold text-lg sm:text-2xl md:text-3xl  mb-10 text-center ">
-                        Protect what you care!
+                        What we Build
                     </h1>
                     <div class="flex w-full">
 
-                        <ol class="w-[90%] m-auto list-outside  text-black">
-                            <div class="w-[90%] max-w-[400px] inline-flex ">
-                                <li class="  mb-4 font-semibold text-primaryColor-600 text-sm sm:text-lg">
-                                    Around 15 businesses will fall prey to ransomware attacks by the time you finish
-                                    reading this page.
-                                </li>
+                        <div class="w-[90%] sm:w-[80%] m-auto list-outside  text-black">
+                            <div
+                                class="w-[97%] sm:w-[47%] m-[5px] md:w-[30%] inline-block  flex-col bg-white  shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
+                                <div class=" w-full flex mt-0 aspect-video overflow-hidden">
+                                    <img src="assets/img/ecommerce-website.jpg" alt="" class="m-auto ">
+                                </div>
+                                <div class="  m-4  ">
+                                    <h3 class="font-semibold text-lg sm:text-lg text-center">
+                                        E-commerce Websites
+                                    </h3>
+                                    <p class="text-gray-800 font-light text-sm sm:text-sm text-center">
+                                        Discover endless shopping possibilities
+                                    </p>
+                                </div>
                             </div>
-                        </ol>
+                            <div
+                                class="w-[97%] sm:w-[47%] m-[5px] md:w-[30%] inline-block  flex-col bg-white  shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
+                                <div class=" w-full flex mt-0 aspect-video overflow-hidden">
+                                    <img src="assets/img/blog_images.jpg" alt="" class="m-auto ">
+                                </div>
+                                <div class="  m-4  ">
+                                    <h3 class="font-semibold text-lg sm:text-lg text-center">
+                                        Blogging Websites
+                                    </h3>
+                                    <p class="text-gray-800 font-light text-sm sm:text-sm text-center">
+                                        Unleash your creativity, one post at a time.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="w-[97%] sm:w-[47%] m-[5px] md:w-[30%] inline-block  flex-col bg-white  shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
+                                <div class=" w-full flex mt-0 aspect-video overflow-hidden">
+                                    <img src="assets/img/dash-board.png" alt="" class="m-auto ">
+                                </div>
+                                <div class="  m-4  ">
+                                    <h3 class="font-semibold text-lg sm:text-lg text-center">
+                                        Management Platforms
+                                    </h3>
+                                    <p class="text-gray-800 font-light text-sm sm:text-sm text-center">
+                                        Streamline operations effortlessly.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="w-[97%] sm:w-[47%] m-[5px] md:w-[30%] inline-block  flex-col bg-white  shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
+                                <div class=" w-full flex mt-0 aspect-video overflow-hidden">
+                                    <img src="assets/img/e-learning-image.jpg" alt="" class="m-auto ">
+                                </div>
+                                <div class="  m-4  ">
+                                    <h3 class="font-semibold text-lg sm:text-lg text-center">
+                                        Education Platforms
+                                    </h3>
+                                    <p class="text-gray-800 font-light text-sm sm:text-sm text-center">
+                                        Streamline operations effortlessly.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="w-[97%] sm:w-[47%] m-[5px] md:w-[30%] inline-block  flex-col bg-white  shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
+                                <div class=" w-full flex mt-0 aspect-video overflow-hidden">
+                                    <img src="assets/img/school-websites.png" alt="" class="m-auto ">
+                                </div>
+                                <div class="  m-4  ">
+                                    <h3 class="font-semibold text-lg sm:text-lg text-center">
+                                        School Websites
+                                    </h3>
+                                    <p class="text-gray-800 font-light text-sm sm:text-sm text-center">
+                                        Streamline operations effortlessly.
+                                    </p>
+                                </div>
+                            </div>
+
+
+                        </div>
 
                     </div>
                     <div class="flex w-full justify-start mt-8">
-                        <a href="cybersecurity.html">
+                        <a href="#contactUs">
                             <button
                                 class="ml-6 bg-primaryColor-800 hover:bg-primaryColor-600 transition duration-300 ease-in h-10 sm:h-14 w-max px-4 sm:px-10 text-white rounded-full font-light text-lg">
-                                Learn
-                                More <span class="my-4">&RightArrow;</span>
+                                Contact Us
+                                <span class="my-4">&phone;</span>
                             </button>
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="custom-shape-divider-bottom-1716035228 -z-10 inset-0">
+
+
+        </section>
+        <section id="cybersecurity"
+            class="w-full sm:min-h-[100vh] min-h-[50vh] sm:py-10  py-10 flex flex-col bg-primaryColor-200 relative items-center">
+            <div class=" w-full h-full inset-0  absolute top-0">
+            </div>
+
+            <div class="custom-shape-divider-bottom-1716035228 ">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
                     preserveAspectRatio="none">
                     <path
                         d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-                        class="shape-fill"></path>
+                        class=" fill-primaryColor-200"></path>
                 </svg>
+            </div>
+            <div
+                class="sm:w-[90vw] w-full bg-transparent p-4 m-auto z-10 sm:min-h-[90vh] min-h-[500px] flex flex-col items-center relative">
+
+                <div class="flex justify-around sm:flex-row flex-col">
+                    <div class="w-full sm:w-1/3 md:1/4 flex sm:justify-self-end justify-center items-center">
+                        <img src="assets/img/safe-and-stable-svgrepo-com.svg" alt="Infinite GIF"
+                            class="w-3/5 md:w-3/5 ">
+                    </div>
+                    <div class="w-full sm:w-2/3 md:3/4 my-10 sm:justify-self-start">
+                        <h2
+                            class="text-primaryColor-900  font-extrabold text-3xl sm:text-left text-center sm:text-4xl md:text-5xl  mb-3">
+                            Cyber Security
+                        </h2>
+                        <p class="text-xl text-center sm:text-left sm:text-xl ">
+                            Cybersecurity refers to the practice of protecting computer systems, networks, and data from
+                            digital attacks, unauthorized access, and other cyber threats.
+                        </p>
+                    </div>
+                </div>
+                <!-- Plans and pricing tab -->
+                <div class="flex w-full flex-col justify-stretch">
+                    <h1 class="text-black font-extrabold text-lg sm:text-2xl md:text-3xl  mb-10 text-center ">
+                        Services that we offer
+                    </h1>
+                    <div class="flex w-full">
+
+                        <div class="w-[90%] sm:w-[60%] m-auto list-outside  text-black">
+                            <div
+                                class="w-[47%] sm:w-[47%] m-[0px] md:w-[30%] inline-flex aspect-auto flex-col  shadow-purple-300">
+                                <div class=" w-full flex mt-5">
+                                    <img src="assets/img/ssl.png" alt="" class="w-1/4 m-auto">
+                                </div>
+                                <div class="  mb-4 font-semibold text-gray-800 text-sm sm:text-lg text-center">
+                                    <p>
+                                        SSL Certificates
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="w-[47%] sm:w-[47%] m-[0px] md:w-[30%] inline-flex aspect-auto flex-col  shadow-purple-300">
+                                <div class=" w-full flex mt-5">
+                                    <img src="assets/img/network-security.png" alt="" class="w-1/4 m-auto">
+                                </div>
+                                <div class="  mb-4 font-semibold text-gray-800 text-sm sm:text-lg text-center">
+                                    <p>
+                                        Network Security
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="w-[47%] sm:w-[47%] m-[0px] md:w-[30%] inline-flex aspect-auto flex-col  shadow-purple-300">
+                                <div class=" w-full flex mt-5">
+                                    <img src="assets/img/endpoint-security.png" alt="" class="w-1/4 m-auto">
+                                </div>
+                                <div class="  mb-4 font-semibold text-gray-800 text-sm sm:text-lg text-center">
+                                    <p>
+                                        Endpoint Security
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="w-[47%] sm:w-[47%] m-[0px] md:w-[30%] inline-flex aspect-auto flex-col  shadow-purple-300">
+                                <div class=" w-full flex mt-5">
+                                    <img src="assets/img/email-security.png" alt="" class="w-1/4 m-auto">
+                                </div>
+                                <div class="  mb-4 font-semibold text-gray-800 text-sm sm:text-lg text-center">
+                                    <p>
+                                        Email Security
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="w-[47%] sm:w-[47%] m-[0px] md:w-[30%] inline-flex aspect-auto flex-col  shadow-purple-300">
+                                <div class=" w-full flex mt-5">
+                                    <img src="assets/img/data-shield.png" alt="" class="w-1/4 m-auto">
+                                </div>
+                                <div class="  mb-4 font-semibold text-gray-800 text-sm sm:text-lg text-center">
+                                    <p>
+                                        Data Encyrption
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="w-[47%] sm:w-[47%] m-[0px] md:w-[30%] inline-flex aspect-auto flex-col  shadow-purple-300">
+                                <div class=" w-full flex mt-5">
+                                    <img src="assets/img/training-security.png" alt="" class="w-1/4 m-auto">
+                                </div>
+                                <div class="  mb-4 font-semibold text-gray-800 text-sm sm:text-lg text-center">
+                                    <p>
+                                        Security Awareness Training
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="flex w-full justify-start mt-8">
+                        <a href="#contactUs">
+                            <button
+                                class="ml-6 bg-primaryColor-800 hover:bg-primaryColor-600 transition duration-300 ease-in h-10 sm:h-14 w-max px-4 sm:px-10 text-white rounded-full font-light text-lg">
+                                Contact Us
+                                <span class="my-4">&phone;</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <section id="news-subscribe"
+            class="w-full sm:min-h-[100vh] min-h-[50vh] sm:py-10  py-10 flex flex-col bg-white relative items-center">
+            <div class=" w-full h-full inset-0  absolute top-0">
+            </div>
+
+            <div class="custom-shape-divider-bottom-1716035228 ">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                        class=" fill-white"></path>
+                </svg>
+            </div>
+            <div
+                class="sm:w-[90%] max-w-[1000px] bg-transparent sm:bg-primaryColor-200 w-full   mx-auto sm:mb-20 mt-5  z-10 sm:min-h-[70vh] min-h-[200px] flex sm:flex-row flex-col relative ">
+
+                <div class="w-full sm:h-auto sm:w-1/2 flex  flex-[1]">
+                    <div class="m-auto w-4/5 flex max-w-[200px] aspect-square justify-center items-center">
+                        <img src="assets/img/subscribe.png" alt="" class="w-4/5">
+                    </div>
+                </div>
+                <!-- Plans and pricing tab -->
+                <div class="flex w-full sm:h-auto sm:w-1/2 bg-transparent sm:bg-primaryColor-900 flex-[1]">
+                    <div class="m-10 sm:mx-20 flex-col">
+                        <h1
+                            class=" text-black sm:text-white font-light text-3xl sm:text-3xl md:text-3xl  mb-5 sm:text-left ">
+                            Subscribe to our newsletter
+                        </h1>
+                        <form action="" onsubmit="(e) =>{e.preventDefault()}" id="subscribe-form" method="post"
+                            class="m-auto w-full">
+                            <div
+                                class="border-2 text-gray-500 my-4 border-gray-500 focus-within:border-primaryColor-700 focus-within:text-purple-700 inline-flex  overflow-hidden rounded-full h-14 w-[calc(100%)] bg-white">
+                                <input id="first_name" type="text"
+                                    class="flex h-[calc(100%-4px)] my-[2px] ml-8 w-[calc(100%-80px)] outline-0 font-semibold text-black"
+                                    required placeholder="First name..." />
+                                <label for="first_name" class="grid w-[30px] justify-center items-center">
+                                    <i class="fas fa-user"></i>
+                                </label>
+                            </div>
+                            <div
+                                class="border-2 text-gray-500 my-4 border-gray-500 focus-within:border-primaryColor-700 focus-within:text-purple-700 inline-flex  overflow-hidden rounded-full h-14 w-[calc(100%)] bg-white">
+                                <input id="second_name" type="text"
+                                    class="flex h-[calc(100%-4px)] my-[2px] ml-8 w-[calc(100%-80px)] outline-0 font-semibold text-black"
+                                    required placeholder="Second name..." />
+                                <label for="second_name" class="grid w-[30px] justify-center items-center">
+                                    <i class="fas fa-user"></i>
+                                </label>
+                            </div>
+                            <div
+                                class="border-2 text-gray-500 my-4 border-gray-500 focus-within:border-primaryColor-700 focus-within:text-purple-700 inline-flex  overflow-hidden rounded-full h-14 w-[calc(100%)] bg-white">
+                                <input id="yourEmail" type="email"
+                                    class="flex h-[calc(100%-4px)] my-[2px] ml-8 w-[calc(100%-80px)] outline-0 font-semibold text-black"
+                                    required placeholder="Email Address..." />
+                                <label for="yourEmail" class="grid w-[30px] justify-center items-center">
+                                    <i class="fas fa-envelope"></i>
+                                </label>
+                            </div>
+                            <div class="inline-flex mt-5 rounded-full h-14 w-[calc(100%)]">
+                                <button id="subscribe-submit-button"
+                                    class="bg-transparent  hover:bg-black transition-colors duration-300 ease-in hover:text-white sm:text-white text-black border border-black sm:border-white sm:hover:border-black hover:border-primaryColor-900 rounded-full  h-[calc(100%-4px)] text-lg font-light min-w-[50%] w-[100px] ">
+                                    Submit
+                                </button>
+                            </div>
+                            <div class="inline-flex mb-5 rounded-full h-14 w-[calc(100%)]">
+                                <p id="statusMsg" class="hidden">Failed to subscribe! Try again.</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <section id="contactUs"
+            class="w-full sm:min-h-[100vh] min-h-[50vh] sm:py-10  py-10 flex flex-col bg-transparent sm:bg-primaryColor-100 relative items-center">
+            <div class=" w-full h-full inset-0  absolute top-0">
+            </div>
+
+            <div class="custom-shape-divider-bottom-1716035228 z-0">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                        class="fill-transparent sm:fill-primaryColor-100"></path>
+                </svg>
+            </div>
+            <div
+                class="sm:w-[90vw] w-full bg-white p-4 m-auto z-10 sm:min-h-[90vh] min-h-[500px] flex flex-col items-center relative">
+                <div class="flex justify-around">
+
+
+                    <div class="w-1/2 flex  ">
+                        <div class="flex rounded-lg m-auto justify-center items-center overflow-hidden w-full">
+                            <img src="assets/img/call-support.png" alt="Cyber Security"
+                                class="w-3/5 md:w-1/3 object-cover mx-auto ">
+
+                        </div>
+                    </div>
+                    <div class="w-1/2  mb-10 mt-[50px] sm:mx-10">
+                        <h2 class="text-primaryColor-900 font-extrabold text-2xl sm:text-4xl md:text-5xl  mb-3">
+                            Contact Us directly
+                        </h2>
+                        <p class="text-sm sm:text-lg ">
+
+                            You can contact us via email, Telephone and more.
+                        </p>
+                    </div>
+                </div>
+                <!-- Plans and pricing tab -->
+                <div class="flex w-full flex-col justify-stretch">
+                    <h1 class="text-black font-extrabold text-lg sm:text-2xl md:text-3xl  mb-10 text-center ">
+                        Direct Contacts
+                    </h1>
+                    <div class="flex w-full">
+
+                        <div class="w-[90%] md:w-[75%] m-auto list-outside  text-black">
+                            <div
+                                class="w-[calc(99%-12px)] sm:w-[calc(49%-12px)] m-[5px]  h-14 bg-primaryColor-100 inline-flex aspect-auto  rounded-xl justify-stretch">
+                                <div class=" h-full text-lg grid aspect-square justify-center items-center">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <a href="tel:+250790144775"
+                                    class="min-h-full flex items-center  font-semibold text-gray-800 hover:text-primaryColor-500 transition ease-in duration-200 text-sm sm:text-lg text-left">
+                                    +250790144775
+                                </a>
+                            </div>
+                            <div
+                                class="w-[calc(99%-12px)] sm:w-[calc(49%-12px)] m-[5px] h-14 bg-primaryColor-100 inline-flex aspect-auto  rounded-xl justify-stretch">
+                                <div class=" h-full text-lg grid aspect-square justify-center items-center">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <a href="mailto:nisammy40@gmail.com"
+                                    class="min-h-full flex items-center  font-semibold text-gray-800 hover:text-primaryColor-500 transition ease-in duration-200 text-sm sm:text-lg text-left">
+                                    dev@endatech.com
+                                </a>
+                            </div>
+                            <div
+                                class="w-[calc(99%-12px)] sm:w-[calc(49%-12px)] m-[5px]  h-14 bg-primaryColor-100 inline-flex aspect-auto  rounded-xl justify-stretch">
+                                <div class=" h-full text-lg grid aspect-square justify-center items-center">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <a href="https://w.me/+250790144775"
+                                    class="min-h-full flex items-center  font-semibold text-gray-800 hover:text-primaryColor-500 transition ease-in duration-200 text-sm sm:text-lg text-left">
+                                    Whatsapp
+                                </a>
+                            </div>
+                            <div
+                                class="w-[calc(99%-12px)] sm:w-[calc(49%-12px)] m-[5px] h-14 bg-primaryColor-100 inline-flex aspect-auto  rounded-xl justify-stretch">
+                                <div class=" h-full text-lg grid aspect-square justify-center items-center">
+                                    <i class="fas fa-tty"></i>
+                                </div>
+                                <a href="tel:000000"
+                                    class="min-h-full flex items-center  font-semibold text-gray-800 hover:text-primaryColor-500 transition ease-in duration-200 text-sm sm:text-lg text-left">
+                                    0000
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <section id="contactFollowUs"
+            class="w-full sm:min-h-[30vh] min-h-[20vh] sm:py-5  py-0 flex flex-col bg-primaryColor-100 relative items-center">
+            <div class=" w-full h-full inset-0  absolute top-0">
+            </div>
+            <div
+                class="sm:w-[90vw] w-full bg-transparent p-4 mx-auto z-10 min-h-[20vh] flex mt-10 flex-col items-center relative">
+                <h2 class="mt-5 text-2xl sm:text-4xl md:text-5xl text-center font-semibold">FOLLOW US</h2>
+
+                <div class="w-full my-10 flex h-max">
+                    <div class="flex w-max m-auto">
+                        <a href="">
+                            <a class="h-20 w-20 rounded-full inline-grid  bg-gray-300 hover:bg-white transition ease-in duration-300 m-4 text-black justify-center items-center text-xl "
+                                href="https://fb.me/endatech">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="h-20 w-20 rounded-full inline-grid  bg-gray-300 hover:bg-white transition ease-in duration-300 m-4 text-black justify-center items-center text-xl "
+                                href="https://linkedin.com/s/endatech">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a class="h-20 w-20 rounded-full inline-grid  bg-gray-300 hover:bg-white transition ease-in duration-300 m-4 text-black justify-center items-center text-xl "
+                                href="https://ig.me/endatech">
+                                <i class="fab fab fa-instagram"></i>
+                            </a>
+                        </a>
+                    </div>
+                </div>
+
+
             </div>
 
 
         </section>
 
     </main>
-    <footer class="bg-black text-white flex w-[100%]">
+    <footer class="bg-black text-white flex w-[100%] relative">
+        <div class="custom-shape-divider-bottom-1716035228 inset-0">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="fill-black"></path>
+            </svg>
+        </div>
         <section class="w-[90%] sm:w-[80%] mx-auto my-5">
             <div class=" my-10 flex w-full items-center sm:flex-row flex-col justify-around">
                 <div class="w-max my-4">
                     <h2 class="font-bold text-xl mb-2 text-primaryColor-600 text-center sm:text-left">Services</h2>
                     <div class="grid font-light">
                         <a class="hover:text-primaryColor-500 my-1 transition ease-in duration-200 text-center sm:text-left"
-                            href="webhosting.html">
+                            href="#web-hosting">
                             Web Hosting
                         </a>
                         <a class="hover:text-primaryColor-500 my-1 transition ease-in duration-200 text-center sm:text-left"
-                            href="webdevelopment.html">
+                            href="#web-development">
                             Web Development
                         </a>
                         <a class="hover:text-primaryColor-500 my-1 transition ease-in duration-200 text-center sm:text-left"
-                            href="cybersecurity.html">
+                            href="#cybersecurity">
                             Cyber Security
                         </a>
                     </div>
@@ -556,7 +955,7 @@
                             About Us
                         </a>
                         <a class="hover:text-primaryColor-500 my-1 transition ease-in duration-200 text-center sm:text-left"
-                            href="contact.html">
+                            href="#contactUs">
                             Contact Us
                         </a>
                         <a class="hover:text-primaryColor-500 my-1 transition ease-in duration-200 text-center sm:text-left"
@@ -606,9 +1005,90 @@
         </section>
     </footer>
     <a href="#topM" id="scrollUpBut"
-        class=" fixed bottom-0 right-0 hidden h-10 w-10 sm:w-[70px] sm:h-[70px] bg-primaryColor-900 transition ease-in duration-300 hover:bg-black m-[50px] rounded-full justify-center items-center text-2xl z-50 text-white shadow-[0_1px_3px_rgb(0,0,0,1)] shadow-primaryColor-500">
+        class=" fixed bottom-0 left-0 hidden h-[60px] w-[60px] sm:w-[60px] sm:h-[60px] bg-primaryColor-900 transition ease-in duration-300 hover:bg-black m-[20px] rounded-full justify-center items-center text-2xl z-50 text-white  shadow-primaryColor-500">
         <i class="fas fa-chevron-up"></i>
     </a>
 </body>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/66694d5a9a809f19fb3caed2/1i05lcbee';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+</script>
+<script>
+    function toggleStatusMsgSub(toVal, msg = "", color = "red") {
+        var statusMsgP = document.getElementById('statusMsg');
+        if (toVal == "hide") {
+            statusMsgP.classList.remove("flex");
+            statusMsgP.classList.add("hidden");
+        } else {
+            statusMsgP.classList.remove("hidden");
+            statusMsgP.classList.add("flex");
+        }
+        if (msg != "") {
+            statusMsgP.innerHTML = msg;
+            statusMsgP.style.color = color;
+        }
+    }
+
+    document.getElementById('subscribe-form').addEventListener('submit', function (e) {
+        toggleStatusMsgSub("hide");
+        e.preventDefault();
+
+        const submitButton = document.getElementById('subscribe-submit-button');
+        submitButton.disabled = true;
+        submitButton.innerHTML = "...";
+
+        const first_name = document.getElementById('first_name').value;
+        const second_name = document.getElementById('second_name').value;
+        const email = document.getElementById('yourEmail').value;
+        const url = "https://hook.eu2.make.com/mg4xy85evy7fss3rfbphxo21g7jv3svc";
+
+        if (!first_name || !second_name || !email) {
+            toggleStatusMsgSub("show", "Fill all the fields!");
+            submitButton.disabled = false;
+        } else {
+            const formData = new FormData();
+            formData.append('email', email);
+            formData.append('first_name', first_name);
+            formData.append('second_name', second_name);
+
+            fetch(url, {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        return response.text().then(errText => {
+                            throw new Error(`Error: ${response.status} ${response.statusText} - ${errText}`);
+                        });
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    console.log('Success:', data);
+                    toggleStatusMsgSub("show", "Subscription successful!", "green");
+                    document.getElementById('subscribe-form').reset();
+                })
+                .catch(error => {
+                    console.error('Error:', error.message);
+                    toggleStatusMsgSub("show", "Server error! Please try again.");
+                })
+                .finally(() => {
+                    submitButton.disabled = false;
+                    submitButton.innerHTML = "Submit";
+                });
+        }
+    });
+
+
+</script>
+<!--End of Tawk.to Script-->
 
 </html>
